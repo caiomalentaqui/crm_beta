@@ -1,2 +1,3 @@
-vamos ver no que da isso aqui...
+Laboratorio de estudo python
 
+Adição de crud simples para rodar local

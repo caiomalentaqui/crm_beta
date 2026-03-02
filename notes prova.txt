@@ -1,0 +1,71 @@
+aws billing and cost management versus aws billing conductor
+
+cloud front
+
+aws global accelarator - latencia baixa + health checks dentro de varias regioes
+
+amazon connect
+
+well-architected framework:
+1. Operational Excellence
+
+2. Security
+
+3. Reliability
+
+4. Performance Efficiency
+
+5. Cost Optimization
+
+6. Sustainability
+
+princing EC2
+
+
+aws elastic beanstalk - deploy recursos, vc sobe um codigo e esse servico fica responsavel pela
+parte de infra de maneira simplificada
+
+aws shared responsibility
+
+2. Pegadinhas clássicas da prova (importantíssimo!)
+1. "Como monitorar API calls?" → CloudTrail
+
+Nunca CloudWatch.
+
+2. "Como monitorar performance/métricas?" → CloudWatch
+
+Nunca CloudTrail.
+
+3. “Como saber se um recurso está compliant?” → AWS Config
+4. “Como otimizar custos automaticamente?” → Trusted Advisor (Business/Enterprise)
+5. "Como distribuir carga globalmente?" → Route 53 + CloudFront
+
+Não confundir com ALB/NLB, que são regionais.
+
+6. “Backup e restore automático gerenciado?” → AWS Backup
+
+Sempre aparece.
+
+tipos de banco de dados
+
+sempre que for on premise transfer to s3 vai ser datasync?
+
+aws artifact vs secrets manager
+
+
+caf perspectives
+
+iot - tipo de protocolo mqtt
+
+Data Bases - 
+
+aws cognito - massa gigante acessando s3 ou algo, escalavel e autenticavel
+
+
+lighsail o que é
+fargate
+
+servicos de suporte, aws suporte, aws iq, aws managed services, aws professional services
+
+snowball snowcone snowmobile
+
